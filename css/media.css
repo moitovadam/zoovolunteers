@@ -1,0 +1,62 @@
+@media screen and (max-width: 996px) {
+    html {
+        font-size: 9px;
+    }
+    .container .row .col-5 {
+        width: 100%;
+    }
+    .container .row .col-7 {
+        width: 100%;
+    }
+    .menu {
+        display: none;
+    }
+    .menu-active {
+        display: flex;
+    }
+    .mobile-menu {
+        display: flex;
+    }
+    #hero .menu-click .menu-list-item.donate-btn {
+        background: rgba(255, 255, 255, 0.82);
+        border: none;
+    }
+    #hero .menu-click .menu-list-item.donate-btn:hover {
+        background: rgba(253, 180, 97, 0.82);
+    }
+    #hero .menu-click .menu-list-item {
+        transition: 0.3s;
+        border-radius: 0.4rem;
+        padding: 0.1rem 1rem;
+    }
+    #hero .menu-click .menu-list-item:hover {
+        background: rgba(255, 255, 255, 0.82);
+        border-radius: 0.4rem;
+        padding: 0.1rem 1rem;
+    }
+    #hero .menu-click .menu-list-item:hover {
+        background: rgba(255, 255, 255, 0.82);
+    }
+}
+
+@media screen and (max-width: 776px) {
+    html {
+        font-size: 8px;
+    }
+    .title, .title.white-color {
+        font-size: 5.4rem;
+        line-height: 6.2rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    html {
+        font-size: 7px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    html {
+        font-size: 6px;
+    }
+}
